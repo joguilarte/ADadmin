@@ -1,0 +1,1 @@
+﻿Get-ADGroup -Filter * -Properties * | export-csv -path "$env:USERPROFILE\Desktop\AD\UserList.csv"
